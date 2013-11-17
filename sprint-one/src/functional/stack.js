@@ -7,7 +7,7 @@ var makeStack = function(){
 
   // Implement the methods below
 
-  instance.push = function(value){ // value must pass a string
+  instance.push = function(value){
     storage[size] = value;
     size++;
   };
