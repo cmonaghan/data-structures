@@ -10,7 +10,6 @@ var makeQueue = function(){
   // add queueMethods
   instance.enqueue = queueMethods.enqueue;
   instance.dequeue = queueMethods.dequeue;
-  debugger;
   instance.size = queueMethods.size;
 
   return instance;
